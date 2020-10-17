@@ -25,7 +25,7 @@ figure,div,a {
   flex-wrap: inherit;
 }
 
-.header-container {
+.header {
   display: flex;
   height: 60px;
   color: white;
@@ -40,24 +40,24 @@ figure,div,a {
   font-size: 19px;
 }
 
-.header-logo {
+.header__logo {
   display: inherit;
 }
 
-.header-logo > img {
+.header__logo > img {
   height: 40px;
   width: 200px;
 }
 
-.header-menu {
+.header__menu {
   display: inherit;
 }
 
-.header-menu ol li {
+.header__menu ol li {
   height: inherit;
 }
 
-.header-menu a {
+.header__menu a {
   display: flex;
   align-items: center;
   color: white;
@@ -67,11 +67,11 @@ figure,div,a {
   height: 60px;
 }
 
-.header-link:hover{
+.header__link--active:hover{
     background-color: red;
 }
 
-.hero-container{
+.hero{
     display: flex;
     background-color: rebeccapurple;
     justify-content: space-around;
