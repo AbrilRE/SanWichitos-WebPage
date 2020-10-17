@@ -1,7 +1,7 @@
 body {
   margin: 0px;
   padding: 0px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 ol,
@@ -11,7 +11,16 @@ ul {
   list-style: none;
 }
 
-figure,div,a {
+figure,
+div,
+a,
+h1,
+h2,
+h3,
+h4,
+h4,
+h6,
+p {
   margin: 0px;
 }
 
@@ -60,19 +69,98 @@ figure,div,a {
 .header__menu a {
   display: flex;
   align-items: center;
-  color: white;
+  color: black;
   height: inherit;
   text-decoration: none;
   padding: 0 15px;
   height: 60px;
 }
 
-.header__link--active:hover{
-    background-color: red;
+.header__link--active:hover {
+  background-color: red;
+  color: white;
 }
 
-.hero{
-    display: flex;
-    background-color: rebeccapurple;
-    justify-content: space-around;
+.hero {
+  display: flex;
+  background: rgb(255, 171, 35);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 171, 35, 0.14639359161633403) 0%,
+    rgba(252, 91, 70, 0) 100%
+  );
+  justify-content: space-around;
+}
+
+.hero__image > img {
+  display: flex;
+  align-items: center;
+  width: 480px;
+  height: 550px;
+  margin-right: 80px;
+}
+
+.hero__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero__details > h1,
+h3 {
+  margin-bottom: 10px;
+}
+
+.hero__details > h1 {
+  font-size: 50px;
+}
+
+.hero__details > h3 {
+  font-size: 30px;
+}
+
+.ingredients {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.ingredients__tittle {
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 68px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.ingredients__tittle > img{
+  width: 62px;
+  margin: 0px 20px;
+}
+
+.ingredients__card {
+  display: inherit;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  padding: 50px 200px;
+  border-radius: 2px;
+  background-color: #ffab23;
+  color: white;
+}
+
+.ingredients__cardtittle {
+  font-size: 30px;
+  color: black;
+  margin-left: 200px;
+}
+
+.ingredients__cardcontent {
+  display: flex;
+  align-items: center;
+}
+
+.ingredients__cardimage > img {
+  margin-right: 50px;
+  height: 150px;
 }
