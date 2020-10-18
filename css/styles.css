@@ -139,14 +139,6 @@ h3 {
   margin: 0px 20px;
 }
 
-<<<<<<< HEAD
-.hero{
-    display: flex;
-    background-color: rebeccapurple;
-    justify-content: space-around;
-}
-
-=======
 .ingredients__card {
   display: inherit;
   flex-wrap: wrap;
@@ -172,4 +164,3 @@ h3 {
   margin-right: 50px;
   height: 150px;
 }
->>>>>>> Abril
