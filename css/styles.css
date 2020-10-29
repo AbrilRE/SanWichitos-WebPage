@@ -95,8 +95,8 @@ p {
 .hero__image > img {
   display: flex;
   align-items: center;
-  width: 480px;
-  height: 550px;
+  width: 750px;
+  height: 535px;
   margin-right: 80px;
 }
 
@@ -104,6 +104,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-right: 50px;
 }
 
 .hero__details > h1,
@@ -134,7 +135,7 @@ h3 {
   text-align: center;
 }
 
-.ingredients__tittle > img{
+.ingredients__tittle > img {
   width: 62px;
   margin: 0px 20px;
 }
@@ -142,8 +143,8 @@ h3 {
 .ingredients__card {
   display: inherit;
   flex-wrap: wrap;
-  margin-bottom: 50px;
-  padding: 50px 200px;
+  margin-bottom: 40px;
+  padding: 20px 200px;
   border-radius: 2px;
   background-color: #ffab23;
   color: white;
@@ -165,3 +166,171 @@ h3 {
   height: 150px;
 }
 
+.sandwich__tittle {
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 68px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.sandwich__hero {
+  display: flex;
+  background-image: url("/img/portada2.png");
+  height: 500px;
+  background-size: 1532px 535px;
+  align-items: center;
+}
+
+.sandwich__details > h1 {
+  font-size: 50px;
+}
+
+.sandwich__details > h3 {
+  font-size: 30px;
+}
+
+.sandwich__container--card {
+  display: flex;
+  margin: 50px 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sandwich__card--pollo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-image: url("/img/pollo.jpg");
+  background-size: 480px 250px;
+  width: 380px;
+  height: 150px;
+  padding: 50px;
+  box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.15);
+  margin: 20px 50px;
+}
+
+.sandwich__card--pollo,
+.sandwich__card--cubano,
+.sandwich__card--montecristo,
+.sandwich__card--verduras > p {
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 65px;
+}
+
+.sandwich__card--cubano {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-image: url("/img/cubano.jpg");
+  background-size: 480px 250px;
+  width: 380px;
+  height: 150px;
+  padding: 50px;
+  box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.15);
+  margin: 20px 50px;
+}
+
+.sandwich__card--montecristo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-image: url("/img/montecristo.jpg");
+  background-size: 480px 250px;
+  width: 380px;
+  height: 150px;
+  padding: 50px;
+  box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.15);
+  margin: 20px 50px;
+}
+
+.sandwich__card--verduras {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-image: url("/img/verduras.jpg");
+  background-size: 480px 250px;
+  width: 380px;
+  height: 150px;
+  padding: 50px;
+  box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.15);
+  margin: 20px 50px;
+}
+
+.sandwich__card--cubano:hover,
+.sandwich__card--montecristo:hover,
+.sandwich__card--pollo:hover,
+.sandwich__card--verduras:hover {
+  transform: scale(1.02);
+  transition: 300ms;
+}
+
+.sandwich__button {
+  background-color: #ffab23;
+  margin-top: 40px;
+  padding: 20px;
+  width: 200px;
+  border: none;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.sandwich__button:hover {
+  background-color: #fc5b46;
+  box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.15);
+  transform: scale(1.02);
+  transition: 300ms;
+}
+
+.footer {
+  display: flex;
+  background: rgb(252, 91, 70);
+  background: linear-gradient(
+    90deg,
+    rgba(252, 91, 70, 1) 0%,
+    rgba(255, 171, 35, 1) 45%,
+    rgba(255, 171, 35, 1) 52%,
+    rgba(252, 91, 70, 1) 100%
+  );
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer__container {
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+  flex-direction: inherit;
+  margin: 70px;
+}
+
+.footer__logo > img {
+  width: 170px;
+}
+
+hr {
+  height: 3px;
+  background-color: black;
+  border-style: none;
+  margin-top: -4px;
+}
+
+.footer__social > img {
+  width: 60px;
+}
+
+.footer__social {
+  text-decoration: none;
+}
+
+.footer__nav > a {
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+}
+
+.footer__signature {
+  margin-top: 5px;
+  font-style: italic;
+  color: #525252;
+}

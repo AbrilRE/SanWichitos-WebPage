@@ -26,12 +26,17 @@
         <nav class="header__menu">
           <ol>
             <li>
-              <a href="#A" class="header__link--active"> Inicio </a>
+              <a href="/index.html" class="header__link--active"> Inicio </a>
             </li>
           </ol>
           <ol>
             <li>
               <a href="#B" class="header__link--active"> SanWichitos </a>
+            </li>
+          </ol>
+          <ol>
+            <li>
+              <a href="#D" class="header__link--active"> Los Tradicionales </a>
             </li>
           </ol>
           <ol>
@@ -44,74 +49,130 @@
     </header>
 
     <section class="hero">
-      <div class="container">
-        <figure class="hero__image">
-          <img src="/img/hero.png" alt="SanWichito" />
-        </figure>
-        <div class="hero__details">
-          <h1>¿Cansado de los mismos sandwiches de siempre?</h1>
-          <h3>¡Ha llegado SanWichitos!</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis
-            ratione excepturi magni, nisi quaerat hic pariatur voluptatem minus
-            molestiae voluptates, laudantium sint odio aperiam sequi modi illo
-            commodi! Doloribus, quod?
+      <figure class="hero__image">
+        <img src="/img/portada1.png" alt="SanWichito" />
+      </figure>
+
+      <div class="hero__details">
+        <h1>¿Cansado de los mismos sandwiches de siempre?</h1>
+        <h3>¡Ha llegado SanWichitos!</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis
+          ratione excepturi magni, nisi quaerat hic pariatur voluptatem minus
+          molestiae voluptates, laudantium sint odio aperiam sequi modi illo
+          commodi! Doloribus, quod?
+        </p>
+      </div>
+    </section>
+
+    <section class="ingredients">
+      <h1 class="ingredients__tittle">
+        <img src="/img/arrow.png" alt="arrow" />
+        ¡Arma tu sandwichito!
+        <img src="/img/arrow.png" alt="arrow" />
+      </h1>
+
+      <div class="ingredients__card">
+        <h2 class="ingredients__cardtittle">¡Elige tu pan!</h2>
+        <div class="ingredients__cardcontent">
+          <figure class="ingredients__cardimage">
+            <img src="/img/pan.png" alt="" />
+          </figure>
+          <p class="ingredients__details">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
+            voluptatem! Laboriosam enim voluptatem aspernatur quisquam ad odit
+            dolorem, quia quae adipisci inventore cum dolore culpa,
+            necessitatibus suscipit sunt eaque. Qui?
+          </p>
+        </div>
+      </div>
+
+      <div class="ingredients__card">
+        <h2 class="ingredients__cardtittle">¡Elige tu verdura!</h2>
+        <div class="ingredients__cardcontent">
+          <figure class="ingredients__cardimage">
+            <img src="/img/tomate.png" alt="" />
+          </figure>
+          <p class="ingredients__details">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
+            voluptatem! Laboriosam enim voluptatem aspernatur quisquam ad odit
+            dolorem, quia quae adipisci inventore cum dolore culpa,
+            necessitatibus suscipit sunt eaque. Qui?
+          </p>
+        </div>
+      </div>
+
+      <div class="ingredients__card">
+        <h2 class="ingredients__cardtittle">¡Elige tu carne!</h2>
+        <div class="ingredients__cardcontent">
+          <figure class="ingredients__cardimage">
+            <img src="/img/jamon.png" alt="" />
+          </figure>
+          <p class="ingredients__details">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
+            voluptatem! Laboriosam enim voluptatem aspernatur quisquam ad odit
+            dolorem, quia quae adipisci inventore cum dolore culpa,
+            necessitatibus suscipit sunt eaque. Qui?
           </p>
         </div>
       </div>
     </section>
 
-    <section class="ingredients">
-        <h1 class="ingredients__tittle">
-          <img src="/img/arrow.png" alt="arrow">
-          ¡Arma tu sandwichito!
-          <img src="/img/arrow.png" alt="arrow">
-        </h1>
-
-        <div class="ingredients__card">
-          <h2 class="ingredients__cardtittle">¡Elige tu pan!</h2>
-          <div class="ingredients__cardcontent">
-            <figure class="ingredients__cardimage">
-              <img src="/img/pan.png" alt="" />
-            </figure>
-            <p class="ingredients__details">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
-              voluptatem! Laboriosam enim voluptatem aspernatur quisquam ad odit
-              dolorem, quia quae adipisci inventore cum dolore culpa,
-              necessitatibus suscipit sunt eaque. Qui?
-            </p>
+    <section class="sandwich">
+      <h1 class="sandwich__tittle">¿No es lo que buscas?</h1>
+      <div class="sandwich__hero">
+        <div class="container">
+          <div class="sandwich__details">
+            <h1>¡No te preocupes!</h1>
+            <h3>Tambien tenemos los tradicionales</h3>
           </div>
         </div>
-
-        <div class="ingredients__card">
-          <h2 class="ingredients__cardtittle">¡Elige tu verdura!</h2>
-          <div class="ingredients__cardcontent">
-            <figure class="ingredients__cardimage">
-              <img src="/img/tomate.png" alt="" />
-            </figure>
-            <p class="ingredients__details">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
-              voluptatem! Laboriosam enim voluptatem aspernatur quisquam ad odit
-              dolorem, quia quae adipisci inventore cum dolore culpa,
-              necessitatibus suscipit sunt eaque. Qui?
-            </p>
+      </div>
+      <article class="sandwich__container--card">
+        <div class="container">
+          <div class="sandwich__card--pollo">
+            <p>Pollo</p>
+          </div>
+          <div class="sandwich__card--cubano">
+            <p>Cubano</p>
+          </div>
+          <div class="sandwich__card--montecristo">
+            <p>Montecristo</p>
+          </div>
+          <div class="sandwich__card--verduras">
+            <p>Verduras</p>
           </div>
         </div>
-
-        <div class="ingredients__card">
-          <h2 class="ingredients__cardtittle">¡Elige tu carne!</h2>
-          <div class="ingredients__cardcontent">
-            <figure class="ingredients__cardimage">
-              <img src="/img/jamon.png" alt="" />
-            </figure>
-            <p class="ingredients__details">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
-              voluptatem! Laboriosam enim voluptatem aspernatur quisquam ad odit
-              dolorem, quia quae adipisci inventore cum dolore culpa,
-              necessitatibus suscipit sunt eaque. Qui?
-            </p>
-          </div>
-        </div>
+        <button class="sandwich__button">Ver mas >></button>
+      </article>
     </section>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <figure class="footer__logo">
+          <img src="/img/logo.png" alt="logo" />
+          <hr />
+        </figure>
+
+        <figure class="footer__media">
+          <a class="footer__social" href="">
+            <img src="/img/face.png" alt="facebook" />
+          </a>
+          <a class="footer__social" href="">
+            <img src="/img/insta.png" alt="instagram" />
+          </a>
+          <a class="footer__social" href="">
+            <img src="/img/wa.png" alt="whatsapp" />
+          </a>
+        </figure>
+
+        <div class="footer__nav">
+          <a href="/index.html"> INICIO </a> | <a href=""> SANWICHITOS </a> |
+          <a href=""> LOS TRADICIONALES </a> |
+          <a href=""> NOSOTROS </a>
+        </div>
+        <div class="footer__signature">@kimchi</div>
+      </div>
+    </footer>
   </body>
 </html>
