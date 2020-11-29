@@ -175,7 +175,7 @@ h3 {
 
 .sandwich__hero {
   display: flex;
-  background-image: url("/img/portada2.png");
+  background-image: url("../img/portada2.png");
   height: 500px;
   background-size: 1532px 535px;
   align-items: center;
@@ -200,7 +200,7 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  background-image: url("/img/pollo.jpg");
+  background-image: url("../img/pollo.jpg");
   background-size: 480px 250px;
   width: 380px;
   height: 150px;
@@ -221,7 +221,7 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  background-image: url("/img/cubano.jpg");
+  background-image: url("../img/cubano.jpg");
   background-size: 480px 250px;
   width: 380px;
   height: 150px;
@@ -234,7 +234,7 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  background-image: url("/img/montecristo.jpg");
+  background-image: url("../img/montecristo.jpg");
   background-size: 480px 250px;
   width: 380px;
   height: 150px;
@@ -247,7 +247,7 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  background-image: url("/img/verduras.jpg");
+  background-image: url("../img/verduras.jpg");
   background-size: 480px 250px;
   width: 380px;
   height: 150px;
